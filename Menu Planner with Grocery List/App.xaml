@@ -1,0 +1,119 @@
+﻿<Application
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Menu_Planner_with_Grocery_List" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d"
+    x:Class="Menu_Planner_with_Grocery_List.App"
+    >
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- Error/Status -->
+                <ResourceDictionary>
+                    <ResourceDictionary.ThemeDictionaries>
+                        <ResourceDictionary x:Key="Default">
+                            <SolidColorBrush x:Key="statusBrush">Red</SolidColorBrush>
+                                </ResourceDictionary>                        
+                                <ResourceDictionary x:Key="HighContrast">
+                                    <SolidColorBrush x:Key="statusBrush">White</SolidColorBrush>
+                                </ResourceDictionary>
+                            </ResourceDictionary.ThemeDictionaries>
+                    <TextBlock x:Name="statusText" TextWrapping="Wrap" Foreground="{StaticResource statusBrush}" Visibility="Collapsed" />
+                </ResourceDictionary>
+
+                <!-- 
+                    Styles that define common aspects of the platform look and feel
+                    Required by Visual Studio project and item templates
+                 -->
+                <ResourceDictionary Source="Common/StandardStyles.xaml"/>
+                <ResourceDictionary Source="Common/MyStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            
+            <x:String x:Key="AppName">The Handy Pantry</x:String>
+            <x:String x:Key="AppLogo">Windows Store Code Samples by All-In-One Code Framework</x:String>
+            <x:String x:Key="AppDescription">This app will help you save time and money at the grocery store, by being able to create menus, and off of that createing a grocery list of what you will need to create your meals. "The grocery list you can take with you to the store useing your Sky Drive account".</x:String>
+            <x:String x:Key="PageName">Welcome to This Page</x:String>
+
+            <Style x:Key="AppHeaderStyle" TargetType="TextBlock" BasedOn="{StaticResource HeaderTextStyle}">
+                <Setter Property="FontFamily" Value="SketchFlow Print"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="TextWrapping" Value="NoWrap"/>
+                <Setter Property="Margin" Value="0,10,0,10"/>
+                <Setter Property="Foreground">
+                    <Setter.Value>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFF8F8F6" Offset="0.465"/>
+                            <GradientStop Color="#FF54D606" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="snappedAppHeaderStyle" TargetType="TextBlock">
+                <Setter Property="FontFamily" Value="SketchFlow Print"/>
+                <Setter Property="FontSize" Value="26.667"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="TextWrapping" Value="NoWrap"/>
+                <Setter Property="Margin" Value="0,10,0,10"/>
+                <Setter Property="Foreground">
+                    <Setter.Value>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFF8F8F6" Offset="0.339"/>
+                            <GradientStop Color="#FF54D606" Offset="0.572"/>
+                        </LinearGradientBrush>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="AppLogoStyle" TargetType="TextBlock" BasedOn="{StaticResource TitleTextStyle}">
+                <Setter Property="FontFamily" Value="SketchFlow Print"/>
+                <Setter Property="TextWrapping" Value="Wrap"/>
+            </Style>
+
+            <Style x:Key="AppDescriptionStyle" TargetType="TextBlock" BasedOn="{StaticResource SubheaderTextStyle}">
+                <Setter Property="FontFamily" Value="SketchFlow Print"/>
+                <Setter Property="TextWrapping" Value="Wrap"/>
+                <Setter Property="Margin" Value="0,10,0,10"/>
+            </Style>
+
+            <Style x:Key="AppBodyTextStyle" TargetType="TextBlock" BasedOn="{StaticResource BodyTextStyle}">
+                <Setter Property="FontFamily" Value="SketchFlow Print"/>
+                <Setter Property="TextWrapping" Value="Wrap"/>
+            </Style>
+
+            <Style x:Key="AppFooterStyle" TargetType="TextBlock" BasedOn="{StaticResource CaptionTextStyle}">
+                <Setter Property="FontFamily" Value="SketchFlow Print"/>
+                <Setter Property="TextWrapping" Value="Wrap"/>
+            </Style>
+
+            <Style x:Key="ItemTitleStyle" TargetType="TextBlock">
+                <Setter Property="FontFamily" Value="Segoe UI Light"/>
+                <Setter Property="FontSize" Value="14.667"/>
+            </Style>
+            <Style x:Key="ItemSubtitleStyle" TargetType="TextBlock">
+                <Setter Property="FontFamily" Value="Segoe UI Light"/>
+                <Setter Property="FontSize" Value="14.667"/>
+            </Style>
+
+            <Style x:Key="personItemContainerStyle" TargetType="GridViewItem">
+                <Setter Property="FontFamily" Value="Segoe UI" />
+                <Setter Property="Height" Value="60" />
+                <Setter Property="Width" Value="200" />
+                <Setter Property="Padding" Value="0" />
+                <Setter Property="Margin" Value="0,0,8,8" />
+                <Setter Property="HorizontalContentAlignment" Value="Left" />
+                <Setter Property="VerticalContentAlignment" Value="Top" />
+                <Setter Property="BorderThickness" Value="0"/>
+                <Setter Property="TabNavigation" Value="Local" />
+            </Style>
+
+            <ItemsPanelTemplate x:Key="personItemsPanel">
+                <WrapGrid MaximumRowsOrColumns="5" VerticalChildrenAlignment="Top" HorizontalChildrenAlignment="Left" Orientation="Horizontal"/>
+            </ItemsPanelTemplate>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

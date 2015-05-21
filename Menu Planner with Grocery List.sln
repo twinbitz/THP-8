@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows 8
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Handy Pantry", "Menu Planner with Grocery List\The Handy Pantry.csproj", "{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Performance Reports", "Performance Reports", "{77F838E6-9761-4DF1-B09A-5EDB84E21B31}"
+	ProjectSection(SolutionItems) = preProject
+		Menu Planner with Grocery List130130.vspx = Menu Planner with Grocery List130130.vspx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://twinbitz.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Menu\u0020Planner\u0020with\u0020Grocery\u0020List\\The\u0020Handy\u0020Pantry.csproj
+		SccProjectName1 = Menu\u0020Planner\u0020with\u0020Grocery\u0020List
+		SccLocalPath1 = Menu\u0020Planner\u0020with\u0020Grocery\u0020List
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		The Handy Pantry|Any CPU = The Handy Pantry|Any CPU
+		The Handy Pantry|ARM = The Handy Pantry|ARM
+		The Handy Pantry|x64 = The Handy Pantry|x64
+		The Handy Pantry|x86 = The Handy Pantry|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Debug|ARM.Build.0 = Debug|ARM
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Debug|ARM.Deploy.0 = Debug|ARM
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Debug|x64.ActiveCfg = Debug|x64
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Debug|x64.Build.0 = Debug|x64
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Debug|x64.Deploy.0 = Debug|x64
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Debug|x86.ActiveCfg = Debug|x86
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Debug|x86.Build.0 = Debug|x86
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Debug|x86.Deploy.0 = Debug|x86
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Release|ARM.ActiveCfg = Release|ARM
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Release|ARM.Build.0 = Release|ARM
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Release|ARM.Deploy.0 = Release|ARM
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Release|x64.ActiveCfg = Release|x64
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Release|x64.Build.0 = Release|x64
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Release|x64.Deploy.0 = Release|x64
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Release|x86.ActiveCfg = Release|x86
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Release|x86.Build.0 = Release|x86
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.Release|x86.Deploy.0 = Release|x86
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.The Handy Pantry|Any CPU.ActiveCfg = The Handy Pantry|Any CPU
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.The Handy Pantry|Any CPU.Build.0 = The Handy Pantry|Any CPU
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.The Handy Pantry|Any CPU.Deploy.0 = The Handy Pantry|Any CPU
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.The Handy Pantry|ARM.ActiveCfg = The Handy Pantry|ARM
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.The Handy Pantry|ARM.Build.0 = The Handy Pantry|ARM
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.The Handy Pantry|ARM.Deploy.0 = The Handy Pantry|ARM
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.The Handy Pantry|x64.ActiveCfg = The Handy Pantry|x64
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.The Handy Pantry|x64.Build.0 = The Handy Pantry|x64
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.The Handy Pantry|x64.Deploy.0 = The Handy Pantry|x64
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.The Handy Pantry|x86.ActiveCfg = The Handy Pantry|x86
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.The Handy Pantry|x86.Build.0 = The Handy Pantry|x86
+		{0F7778C1-5B11-41BB-9098-CF0EBB6ED81C}.The Handy Pantry|x86.Deploy.0 = The Handy Pantry|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

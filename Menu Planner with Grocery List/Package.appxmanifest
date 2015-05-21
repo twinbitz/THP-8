@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="" Publisher="CN=0755F507-D070-4549-AFEB-C15545467B53" Version="1.1.0.15" />
+  <Properties>
+    <DisplayName>The Handy Pantry</DisplayName>
+    <PublisherDisplayName>TwinBitz</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Menu_Planner_with_Grocery_List.App">
+      <Extensions>
+        <Extension Category="windows.fileTypeAssociation">
+          <FileTypeAssociation Name="json">
+            <DisplayName>Json files</DisplayName>
+            <EditFlags OpenIsSafe="true" />
+            <SupportedFileTypes>
+              <FileType>.json</FileType>
+            </SupportedFileTypes>
+          </FileTypeAssociation>
+        </Extension>
+      </Extensions>
+      <m2:VisualElements DisplayName="The Handy Pantry" Description="The Handy Pantry Application will help make planning your meals seamless and simple.  This app will allow you to input, store, and share all your favorite recipes.  Just for fun, it will even allow you to upload pictures of your creations.  The application also allows you to add the ingredients for the meals or snacks you plan to make to a grocery list.  You can then check your pantry and remove any items you already have in stock.  There is nothing worse than getting ready to make dinner and realizing you are missing a key ingredient.  This feature will save all those last minute trips to the grocery store for a last minute ingredient that ends up costing your additional dollars.  Because let’s face it, you go for the one item, but no one can get out of the grocery store for less than $50 a trip.  This app will help you be more plan-full and stay on budget.  Do you have finicky little eaters?  Share your recipe with your notes easily with the babysitter.  Are you hosting guests, or throwing a party?  Share and get recipes from your friends with ease. • Store your breakfast, lunch, and dinner recipes and snack items. • Creating a grocery list of what you planned for meals and saving it to the cloud. • Share your recipes with EASE." BackgroundColor="#483d8b" ForegroundText="light" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png">
+        <m2:DefaultTile Wide310x150Logo="Assets\Wide-Logo.png">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:InitialRotationPreference>
+          <m2:Rotation Preference="landscape" />
+          <m2:Rotation Preference="landscapeFlipped" />
+        </m2:InitialRotationPreference>
+        <m2:SplashScreen BackgroundColor="#483d8b" Image="Assets\SplashScreen.png" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="picturesLibrary" />
+    <Capability Name="internetClient" />
+    <DeviceCapability Name="webcam" />
+  </Capabilities>
+</Package>
